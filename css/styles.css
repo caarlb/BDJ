@@ -1,7 +1,14 @@
 /* styles.css */
-body {
+/*body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     text-align: center;
 }
 /* Agrega más estilos según tus preferencias */
+
+
+.img-encabezado {
+    max-width: 100%;
+    width: 100vw; /* Ajusta al ancho del viewport */
+    height: auto;
+}
