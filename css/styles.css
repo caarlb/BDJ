@@ -1,14 +1,36 @@
-/* styles.css */
-/*body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    text-align: center;
+body {
+    background-color: #faf9f7; /* Cambia el color aquí */
 }
-/* Agrega más estilos según tus preferencias */
+
+#encabezado {
+    background-image: url('/img/logoJD.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+}
+
+#botonMusica {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
 
 
-.img-encabezado {
-    max-width: 100%;
-    width: 100vw; /* Ajusta al ancho del viewport */
-    height: auto;
+#novios {
+    background-color: #467942;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #E7B2A4; /* Color de letra */
+    text-align: center;
+    font-family:  "Georgia", serif;  /* Tipo de letra */
+    padding: 5px; 
+    
 }
