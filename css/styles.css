@@ -1,5 +1,9 @@
 body {
-    background-color: #faf9f7; /* Cambia el color aquí */
+    /* el color de fonddo de la imagen es #faf7f7 */
+    background-color: #faf7f7; /* Cambia el color aquí */
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 #encabezado {
@@ -24,13 +28,80 @@ body {
 
 
 #novios {
-    background-color: #467942;
-    position: absolute;
-    left: 0;
-    right: 0;
-    color: #E7B2A4; /* Color de letra */
+    background-color: #467942; /* Color de fondo */
+    color: #fff; /* Color de letra */
     text-align: center;
     font-family:  "Georgia", serif;  /* Tipo de letra */
-    padding: 5px; 
-    
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
+
+.contador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #467942;
+    font-family: "Georgia", serif;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/* Estilos para el título del contador */
+.contador-titulo {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Estilos para el contenedor del temporizador */
+.contador-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para cada elemento del contador (días, horas, minutos, segundos) */
+.contador-item {
+    text-align: center;
+    margin: 0 15px; 
+}
+
+/* Estilos para los números */
+.contador-item span:first-child {
+    font-size: 48px;
+    font-weight: bold;
+    display: block;
+}
+
+/* Estilos para las etiquetas (días, horas, minutos, segundos) */
+.label {
+    color: #6f886d;
+    font-size: 10px;
+}
+
+.foto147 {
+    background-image: url('/img/FotoJD147.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+}
+
+.participantes{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #467942;
+    font-family: "Georgia", serif;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.participantes-titulo {
+    font-size: 16px;
+    font-weight: normal;
+}
+

@@ -1,112 +1,137 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
 
-    <title>Boda Calcá Fuentes</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
 
-    
+  <title>Boda Calcá Fuentes</title>
+</head>
 
-    <!--ENCABEZADO-->
-    <section id="encabezado">
-      <audio id="miMusica" src="img/backgroud_song.mp3" autoplay loop></audio>
-      <button id="botonMusica">♫</button>
-    </section>
+<body>
 
 
-     <!--NOVIOS-->
-     <section id="novios">
-      <h1>David y Josy</h1>
-    </section>
-    
 
-    <!--CUENTA REGRESIVA-->
-    <section>
-      <h1>faltan minutos, segundos, etc</h1>
-    </section>
+  <!--ENCABEZADO-->
+  <section id="encabezado">
+    <audio id="miMusica" src="img/backgroud_song.mp3" autoplay loop></audio>
+    <button id="botonMusica">♫</button>
+  </section>
 
-    <!--FOTO INTERMEDIA-->
-    <section>
-      <img src="" alt="Foto 147" />
-    </section>
 
-    <!--PARTICIPANTES-->
-    <section>
-      <p>Con la bendición de Dios y nuestros padres:</p>
-      <table>
-        <tr>
-          <td>
-            <p>Pablo Calcá</p>
-            <p>Gilda Teleguario</p>
-            <p>Pablo David</p>
-          </td>
-          <td>
-            <p>Fredi Fuentes &#x1F397;</p>
-            <p>Lesbia Velásquez</p>
-            <p>Joseline Andrea</p>
-          </td>
-        </tr>
-      </table>
-    </section>
+  <!--NOVIOS-->
+  <section id="novios">
+    <h1>David y Josy</h1>
+  </section>
 
-    <!--VERSICULO-->
-    <section>
-        <p>Nadie ha visto jamás a Dios. Si nos amamos unos a otros, Dios permanece en nosotros, y su amor se ha perfeccionado en nosotros.</p>
-        <p>1 Juan 4:12</p>
-    </section>
 
-    <!--INVITACIÓN-->
-    <section>
-        <p>Tenemos el agrado de invitarte a ser parte de nuestro gran día...</p>
-        <p>Sábado 30 de Noviembre 2024</p>
-        <p>15:30 horas</p>
-    </section>
+  <!--CUENTA REGRESIVA-->
+  <section class="contador">
+    <h1 class="contador-titulo">Sólo faltan...</h1>
+    <div class="contador-timer">
+        <div class="contador-item">
+            <span id="days"></span>
+            <span class="label">días</span>
+        </div>
+        
+        <div class="contador-item">
+            <span id="hours"></span>
+            <span class="label">horas</span>
+        </div>
+        
+        <div class="contador-item">
+            <span id="minutes"></span>
+            <span class="label">minutos</span>
+        </div>
+        
+        <div class="contador-item">
+            <span id="seconds"></span>
+            <span class="label">segundos</span>
+        </div>
+    </div>
+</section>
 
-    <!--DIBUJO CALENDARIO-->
-    <section>
-        <img src="" alt="Imagen del Calendaria 30 de noviembre">
-    </section>
+  <!--FOTO INTERMEDIA-->
+  <section class="foto147">
+  </section>
 
-    <!--UBICACIÓN-->
-    <section>
-        <h1>Lugar</h1>
-        <p>Bello Jardín Km. 31.3 San Lucas, Sacatepequez</p>
-        <p>enlace waze:  
-            https://waze.com/ul?a=share_drive&locale=es_419&sd=tS7NfWXF4sjMTr6YhQ-sd&env=row&utm_source=waze_app&utm_campaign=share_drive</p>
-        <p>Parqueo gratuito frente al lugar del evento</p>
-    </section>
+  <!--PARTICIPANTES-->
+  <section class="participantes">
+    <pc class="participantes-titulo">Con la bendición de Dios y nuestros padres:</p>
+    <table>
+      <tr>
+        <td>
+          <p>Pablo Calcá</p>
+          <p>Gilda Teleguario</p>
+          <p>Pablo David</p>
+        </td>
+        <td>
+          <p>Fredi Fuentes &#x1F397;</p>
+          <p>Lesbia Velásquez</p>
+          <p>Joseline Andrea</p>
+        </td>
+      </tr>
+    </table>
+  </section>
 
-    <!--REGALOS-->
-    <section>
-        <h1>Tu presencia es nuestro mayor regalo, pero si deseas obsequiarnos algo ponemos a tu disposición nuestras sugerencias</h1>
-        <p>link cemaco: https://www.cemaco.com/list/josyydavid20241130</p>
-        <p>O bien puedes hacerlo en efectivo el día del evento, tendremos sobres disponibles</p>
-    </section>
+  <!--VERSICULO-->
+  <section>
+    <p>Nadie ha visto jamás a Dios. Si nos amamos unos a otros, Dios permanece en nosotros, y su amor se ha
+      perfeccionado en nosotros.</p>
+    <p>1 Juan 4:12</p>
+  </section>
 
-    <!--CÓDIGO VESTIMENTA-->
-    <section>
-        <h1>Código de vestimenta</h1>
-        <p>formal</p>
-        <p>te recomendamos llevar abrigo, el lugar es de clima frío</p>
-        <h1>NOS RESERVAMOS EL COLOR BLANCO PARA LA NOVIA</h1>
-    </section>
+  <!--INVITACIÓN-->
+  <section>
+    <p>Tenemos el agrado de invitarte a ser parte de nuestro gran día...</p>
+    <p>Sábado 30 de Noviembre 2024</p>
+    <p>15:30 horas</p>
+  </section>
 
-    <!--ALBUM-->
-    <section>
-        <H1>ALBUM DE FOTOS</H1>
-    </section>
+  <!--DIBUJO CALENDARIO-->
+  <section>
+    <img src="" alt="Imagen del Calendaria 30 de noviembre">
+  </section>
 
-    <!--CONFIRMACIÓN-->
-    <section>
-        <H1>Agradecemos tu confirmación de asistencia antes del:</H1>
-        <H1>20 DE SEPTIEMBRE DEL 2024</H1>
-        <button>CONFIRMAR</button>
-    </section>
+  <!--UBICACIÓN-->
+  <section>
+    <h1>Lugar</h1>
+    <p>Bello Jardín Km. 31.3 San Lucas, Sacatepequez</p>
+    <p>enlace waze:
+      https://waze.com/ul?a=share_drive&locale=es_419&sd=tS7NfWXF4sjMTr6YhQ-sd&env=row&utm_source=waze_app&utm_campaign=share_drive
+    </p>
+    <p>Parqueo gratuito frente al lugar del evento</p>
+  </section>
 
-    <script src="/js/script.js"></script>
-  </body>
+  <!--REGALOS-->
+  <section>
+    <h1>Tu presencia es nuestro mayor regalo, pero si deseas obsequiarnos algo ponemos a tu disposición nuestras
+      sugerencias</h1>
+    <p>link cemaco: https://www.cemaco.com/list/josyydavid20241130</p>
+    <p>O bien puedes hacerlo en efectivo el día del evento, tendremos sobres disponibles</p>
+  </section>
+
+  <!--CÓDIGO VESTIMENTA-->
+  <section>
+    <h1>Código de vestimenta</h1>
+    <p>formal</p>
+    <p>te recomendamos llevar abrigo, el lugar es de clima frío</p>
+    <h1>NOS RESERVAMOS EL COLOR BLANCO PARA LA NOVIA</h1>
+  </section>
+  <!--ALBUM-->
+  <section>
+    <H1>ALBUM DE FOTOS</H1>
+  </section>
+
+  <!--CONFIRMACIÓN-->
+  <section>
+    <H1>Agradecemos tu confirmación de asistencia antes del:</H1>
+    <H1>20 DE SEPTIEMBRE DEL 2024</H1>
+    <button>CONFIRMAR</button>
+  </section>
+
+  <script src="/js/script.js"></script>
+</body>
+
 </html>
