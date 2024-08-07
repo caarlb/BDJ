@@ -100,13 +100,14 @@ body {
     font-family: "Georgia", serif;
     margin-bottom: 30px;
     margin-top: 10px;
-    text-align: center;
+    
 }
 
 .participantes-titulo {
     font-size: 16px;
     font-weight: normal;
     font-size: medium;
+    text-align: center;
 }
 
 
@@ -116,18 +117,36 @@ body {
 }
 
 
-.nombres-novios {
+.nombre-novio {
     margin-top: 0;
     margin-bottom: 0;
+    text-align: right;
     font-size: xx-large;
-    white-space: nowrap;
-    width: 50%;
-    
+    width: 40%;
+    padding-left: 10%;    
+}
+
+.nombre-y {
+    text-align: center;
+   /*  padding-left: 3%;
+    padding-right: 3%; */
+}
+
+.nombre-novia {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: xx-large;
+    width: 40%;    
+    padding-right: 10%;
 }
 
 .padres {
     margin-top: 10px;
     width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
 }
 
 .detalle-padres {
