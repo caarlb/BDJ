@@ -1,6 +1,7 @@
 body {
     /* el color de fonddo de la imagen es #faf7f7 */
-    background-color: #faf7f7; /* Cambia el color aquí */
+    background-color: #faf7f7;
+    /* Cambia el color aquí */
     margin: 0;
     padding: 0;
     border: none;
@@ -28,10 +29,13 @@ body {
 
 
 #novios {
-    background-color: #467942; /* Color de fondo */
-    color: #fff; /* Color de letra */
+    background-color: #467942;
+    /* Color de fondo */
+    color: #fff;
+    /* Color de letra */
     text-align: center;
-    font-family:  "Georgia", serif;  /* Tipo de letra */
+    font-family: "Georgia", serif;
+    /* Tipo de letra */
     padding-left: 0;
     padding-right: 0;
     padding-top: 3px;
@@ -64,7 +68,7 @@ body {
 /* Estilos para cada elemento del contador (días, horas, minutos, segundos) */
 .contador-item {
     text-align: center;
-    margin: 0 15px; 
+    margin: 0 15px;
 }
 
 /* Estilos para los números */
@@ -90,18 +94,49 @@ body {
     top: 0;
 }
 
-.participantes{
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.participantes {
+    flex-direction: row;
     color: #467942;
     font-family: "Georgia", serif;
     margin-bottom: 30px;
     margin-top: 10px;
+    text-align: center;
 }
 
 .participantes-titulo {
     font-size: 16px;
     font-weight: normal;
+    font-size: medium;
 }
 
+
+.novios {
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+.nombres-novios {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: xx-large;
+    white-space: nowrap;
+    width: 50%;
+    
+}
+
+.padres {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.detalle-padres {
+    width: 50%;
+}
+
+.detalle-padres p {
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    width: 50%;
+}
