@@ -43,3 +43,5 @@ function updateCountdown() {
 
 // Actualiza el contador cada segundo
 setInterval(updateCountdown, 1000);
+
+

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 body {
     /* el color de fonddo de la imagen es #faf7f7 */
@@ -7,16 +8,6 @@ body {
     margin: 0;
     padding: 0;
     border: none;
-}
-
-#encabezado {
-    background-image: url('/img/logoJD.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    position: relative;
-    top: 0;
 }
 
 #botonMusica {
@@ -29,15 +20,24 @@ body {
     cursor: pointer;
 }
 
+#encabezado {
+    background-image: url('/img/logoJD.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+    top: 0;
+}
+
+
+
 
 #novios {
     background-color: #467942;
-    /* Color de fondo */
     color: #fff;
-    /* Color de letra */
     text-align: center;
     font-family: "Georgia", serif;
-    /* Tipo de letra */
     padding-left: 0;
     padding-right: 0;
     padding-top: 3px;
@@ -128,6 +128,7 @@ body {
 
 .versiculo {
     background-color: #E7B2A4;
+    font-size: 18px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -147,12 +148,72 @@ body {
     align-items: center;
 }
 
+.invitacion{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 0;
+    text-align: center;
+    color: #467942;
+    font-size: 25px;
+}
+
+.invitacion-texto{
+    padding: 0 5%;
+}
 
 
+.invitacion-fecha{
+    font-family: 'Great Vibes', cursive;
+    font-size: 34px;
+    padding-bottom: 5px;
+}
 
+.calendario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.ubicacion{
+    text-align: center;
+}
 
+.ubicacion-titulo{
+    background-color: #467942;
+    color: #fff;
+    
+    font-family: "Georgia", serif;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
+.ubicacion-lugar{
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin: 0;
+    text-align: center;
+    color: #467942;
+    font-size: 25px;
+}
+
+.ubicacion-waze {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.ubicacion-waze:hover {
+    text-decoration: underline;
+}
+
+.ubicacion-icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -200,6 +261,17 @@ body {
         max-width: 10%;
         height: auto;
     }
+
+    .calendario img {
+        max-width: 40%;
+        height: auto;
+    }
+
+    .ubicacion-icono img {
+        max-width: 10%;
+        height: auto;
+    }
+
 }
 
 @media (orientation: portrait) {
@@ -243,4 +315,16 @@ body {
         height: auto;
     }
 
+    .calendario img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .ubicacion-icono img {
+        max-width: 20%;
+        height: auto;
+    }
+
 }
+
+
