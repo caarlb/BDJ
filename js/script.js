@@ -24,7 +24,7 @@ botonMusica.addEventListener('click', () => {
 });
 
 // Configura la fecha objetivo (por ejemplo, una fecha de boda)
-const targetDate = new Date("2024-11-30T15:30:00").getTime();
+const targetDate = new Date("2024-11-30T10:30:00").getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();

@@ -8,6 +8,8 @@ body {
     margin: 0;
     padding: 0;
     border: none;
+    align-items: center;
+    text-align: center;
 }
 
 #botonMusica {
@@ -189,27 +191,39 @@ body {
     padding-bottom: 10px;
 }
 
-.ubicacion-lugar{
+.ubicacion-nombre{
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     margin: 0;
     text-align: center;
+    font-size: 30px;
+}
+
+.ubicacion-lugar{
+    padding: 18px;
+    font-size: 20px;
     color: #467942;
-    font-size: 25px;
+}
+
+.ubicacion-icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .ubicacion-waze {
-    font-family: 'Arial', sans-serif;
-    font-size: 18px;
-    color: #007BFF;
+    font-size: 15px;
     text-decoration: none;
+    color: #467942;
 }
 
 .ubicacion-waze:hover {
     text-decoration: underline;
 }
 
-.ubicacion-icono {
+.icono-regalo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,6 +286,11 @@ body {
         height: auto;
     }
 
+    .icono-regalo img {
+        max-width: 10%;
+        height: auto;
+    }
+
 }
 
 @media (orientation: portrait) {
@@ -322,6 +341,11 @@ body {
 
     .ubicacion-icono img {
         max-width: 20%;
+        height: auto;
+    }
+
+    .icono-regalo img {
+        max-width: 30%;
         height: auto;
     }
 
