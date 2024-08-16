@@ -273,7 +273,6 @@ body {
 
 .confirmacion-titulo {
     background-color: #E7B2A4;
-    color: #fff;
     font-family: "Georgia", serif;
     padding-left: 0;
     padding-right: 0;
@@ -310,6 +309,15 @@ body {
     transform: scale(1.1);
 }
 
+.album-titulo {
+    background-color: #467942;
+    color: #fff;
+    font-family: "Georgia", serif;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
