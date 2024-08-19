@@ -1,15 +1,16 @@
-// script.js
+/* // script.js
 const confirmButton = document.getElementById('confirmButton');
 if (confirmButton) {
     confirmButton.addEventListener('click', () => {
-        alert('¡Gracias por confirmar tu asistencia!');
+       // alert('¡Gracias por confirmar tu asistencia!');
         // Agrega más acciones aquí si lo deseas
     });
 } else {
-    console.error('El botón confirmButton no se encontró en el DOM.');
+    //console.error('El botón confirmButton no se encontró en el DOM.');
 }
+ */
 
-
+//configura el reproductor de musica
 const miMusica = document.getElementById('miMusica');
 const botonMusica = document.getElementById('botonMusica');
 
