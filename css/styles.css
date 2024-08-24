@@ -1,26 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Montserrat:ital,wght@0,300;1,300&display=swap");
+
+/* .montserrat-<uniquifier> {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal; 
+}
+ */
+
+/* .carattere-regular {
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
 
 body {
-    /* el color de fonddo de la imagen es #faf7f7 */
-    background-color: #faf7f7;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    border: none;
-    align-items: center;
-    text-align: center;
+  /*   background-color: #ebebd3; */
+  background-color: #ecdcb0;
+  color: #968e85;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: none;
+  align-items: center;
+  text-align: center;
 }
 
-#botonMusica {
+.portada {
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+}
+
+.portada::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/portadaJD_900.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  filter: blur(5px); /* Aplica el difuminado */
+  z-index: -1; /* Coloca el pseudo-elemento detrás de los demás elementos */
+}
+
+.portada-contenido {
+  display: contents;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 4px black;
+}
+
+.musica {
+  padding-top: 5px;
+  width: 100%;
+  font-size: small;
+  background: none;
+  border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px black;
+}
+
+.logo {
+  z-index: 1;
+  height: 40%;
+  padding-top: 5%;
+  filter: drop-shadow(2px 2px 4px black);
+}
+
+.contador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.contador-titulo {
+  font-size: 14px;
+  font-weight: normal;
+ 
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.contador-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contador-item {
+  text-align: center;
+  margin: 0 15px;
+}
+
+.contador-item span:first-child {
+  font-size: 48px;
+  font-weight: bold;
+  display: block;
+}
+
+.label {
+  font-size: 10px;
+  
+}
+
+/* #botonMusica {
     position: fixed;
     top: 10px;
     left: 10px;
     font-size: 24px;
     background: none;
     border: none;
-    cursor: pointer;
+    color: white;
+} */
+
+@media (orientation: landscape) {
+  .logo {
+    z-index: 1;
+    height: 40%;
+    padding-top: 5%;
+  }
 }
+
+@media (orientation: portrait) {
+  .logo {
+    z-index: 1;
+    height: 40%;
+    padding-top: 20%;
+  }
+}
+
+/* 
+
 
 #encabezado {
     background-image: url('/img/logoJD.jpg');
@@ -56,7 +176,6 @@ body {
     margin-top: 40px;
 }
 
-/* Estilos para el título del contador */
 .contador-titulo {
     font-size: 14px;
     font-weight: normal;
@@ -64,27 +183,23 @@ body {
     margin-bottom: 20px;
 }
 
-/* Estilos para el contenedor del temporizador */
 .contador-timer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Estilos para cada elemento del contador (días, horas, minutos, segundos) */
 .contador-item {
     text-align: center;
     margin: 0 15px;
 }
 
-/* Estilos para los números */
 .contador-item span:first-child {
     font-size: 48px;
     font-weight: bold;
     display: block;
 }
 
-/* Estilos para las etiquetas (días, horas, minutos, segundos) */
 .label {
     color: #6f886d;
     font-size: 10px;
@@ -485,4 +600,4 @@ body {
         height: auto;
     }
 
-}
+} */

@@ -17,12 +17,38 @@ const botonMusica = document.getElementById('botonMusica');
 botonMusica.addEventListener('click', () => {
     if (miMusica.paused) {
         miMusica.play();
-        botonMusica.textContent = '||';
+        botonMusica.textContent = 'pausar reproduccion ||';
     } else {
         miMusica.pause();
-        botonMusica.textContent = '▶';
+        botonMusica.textContent = 'Escucha nuestra canción ▶';
     }
-});
+}); 
+
+
+/*  // Configura el reproductor de música
+ const miMusica = document.getElementById('miMusica');
+ const botonMusica = document.getElementById('botonMusica');
+
+ // Intenta reproducir la música al cargar la página
+ document.addEventListener('DOMContentLoaded', () => {
+     miMusica.play().catch(error => {
+         // En caso de que la reproducción sea bloqueada, podemos mostrar un mensaje o simplemente esperar la interacción del usuario
+         console.log('La reproducción automática fue bloqueada:', error);
+     });
+ });
+
+ botonMusica.addEventListener('click', () => {
+     if (miMusica.paused) {
+         miMusica.play();
+         botonMusica.textContent = '||';
+     } else {
+         miMusica.pause();
+         botonMusica.textContent = '▶';
+     }
+ }); */
+
+
+
 
 // Configura la fecha objetivo (por ejemplo, una fecha de boda)
 const targetDate = new Date("2024-11-30T10:30:00").getTime();
