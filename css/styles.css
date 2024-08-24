@@ -164,13 +164,21 @@ body {
     padding-top: 5%;
   }
 
+  .versiculo{
+    padding: 5% 0;
+  }
+
+  .participantes{
+    padding: 5%;
+  }
+
   .icono-biblia img {
     max-width: 10%;
     height: auto;
   }
 
   .novios {
-    font-size: 80px;
+    font-size: 500%;
   }
 
   .conector-novios {
@@ -206,7 +214,7 @@ body {
   .logo {
     z-index: 1;
     height: 40%;
-    padding-top: 20%;
+    padding-top: 30%;
   }
 
   .icono-biblia img {
@@ -215,8 +223,8 @@ body {
   }
 
   .novios {
-    font-size: 10vw;
-  }
+    font-size: 12vw;
+}
 
   .conector-novios {
     padding-left: 3%;
