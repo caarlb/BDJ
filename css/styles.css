@@ -15,7 +15,7 @@
 
 body {
   /*   background-color: #ebebd3; */
-  background-color: #ecdcb0;
+  background-color: #ffffff;
   color: #968e85;
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
@@ -133,7 +133,6 @@ body {
 }
 
 .participantes {
-  background-color: white;
   flex-direction: row;
   padding: 10% 5%;
 }
@@ -158,16 +157,20 @@ body {
 }
 
 .invitacion {
+  background-color: #c1d7ae;
   padding: 10% 5%;
-  display: grid;
+
+
 }
 
 .waze-icono {
-  max-width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ubicacion-waze {
-  background-color: #c1d7ae;
+  background-color: #ecdcb0;
   border: none;
   color: #968e85;
   padding: 8px 30px;
@@ -183,9 +186,88 @@ body {
   transform: scale(1.1);
 }
 
+.collage img{
+  max-width: 100%; 
+  height: auto; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .vestimenta {
+  padding: 10% 20%;
   display: grid;
+  background-color: #FFCAB1;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.icono-regalo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.regalos {
+  padding: 38px 10%;
   background-color: white;
+}
+
+.link-boton {
+  background-color: #ecdcb0;
+  border: none;
+  color: #968e85;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 22px;
+}
+
+.link-boton:hover {
+  transform: scale(1.1);
+}
+
+.compartir {
+  padding: 38px 10%;
+  background-color: #C1D7AE;
+}
+
+.album {
+  background-color: white;
+}
+
+.album-fotos {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.2500%;
+  padding-bottom: 0;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.confirmacion {
+  padding: 30px 10%;
+  background-color: #FFCAB1;
+}
+
+
+.confirmacion-icono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendario {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -242,16 +324,40 @@ body {
   }
 
   .icono-waze img {
-    max-width: 10%;
+    max-width: 5%;
     height: auto;
   }
 
   .ubicacion-waze {
-    margin: 4px 35%;
+    margin: 4px 40%;
+    padding: 8px 0;
   }
-  
+
+  .vestimenta {
+    padding: 3% 0;
+  }
+
   .icono-vestimenta img {
+    max-width: 30%;
+    height: auto;
+  }
+
+   .icono-regalo img {
     max-width: 10%;
+    height: auto;
+  }
+
+  .album-contenedor {
+    padding: 0px 20%;
+  }
+
+  .compartir img {
+    max-width: 6%;
+    height: auto;
+  }
+
+   .calendario img {
+    max-width: 40%;
     height: auto;
   }
 
@@ -302,210 +408,57 @@ body {
   }
 
   .icono-waze img {
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
   }
 
   .ubicacion-waze {
-    margin: 4px 20%;
+    margin: 4px 25%;
+    padding: 8px 0;
   }
 
   .icono-vestimenta img {
-    max-width: 30%;
+    max-width: 75%;
     height: auto;
   }
+
+  .icono-regalo img {
+    max-width: 40%;
+    height: auto;
+  }
+
+  .compartir img {
+    max-width: 25%;
+    height: auto;
+  }
+
+  .confirmacion-icono img {
+    max-width: 20%;
+    height: auto;
+  }
+
+  .calendario img {
+    max-width: 90%;
+    height: auto;
+  }
+
 }
 
 /* 
-.calendario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icono-regalo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.regalos {
-    padding: 20px 5%;
-    font-size: 20px;
-    background-color: #E7B2A4;
-}
-
-.link-cemaco {
-    background-color: #467942;
-    border: none;
-    color: white;
-    padding: 8px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 22px;
-}
-
-.link-cemaco:hover {
-    transform: scale(1.1);
-}
-
-.vestimenta {
-    padding: 20px 10%;
-    font-size: 20px;
-}
-
-.vestimenta-titulo {
-    font-family: "Georgia", serif;
-
-}
-
-.album{
-    background-color: white;
-}
-
-.album-titulo {
-    background-color: #467942;
-    color: #fff;
-    font-family: "Georgia", serif;
-    margin: 0px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.album-fotos {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-top: 56.2500%;
-    padding-bottom: 0;
-    background-color: white;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    overflow: hidden;
-    will-change: transform;
-}
-
-.confirmacion {
-    padding: 30px 20px;
-    font-size: 20px;
-    margin: 0px;
-    background-color: #E7B2A4;
-}
-
-.confirmacion-titulo {
-    font-family: "Georgia", serif;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0px;
-}
-
-
-
-.confirmacion-icono {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.link-confirmacion {
-    background-color: #467942;
-    border: none;
-    color: white;
-    padding: 8px 30px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 22px;
-}
-
-.link-confirmacion:hover {
-    transform: scale(1.1);
-}
-
-
-
-
 
 
 ----------------------------------
 @media (orientation: landscape) {
 
-    .novios {
-        font-size: 80px;
-    }
-
-    .conector-novios {
-        padding-left: 5%;
-        padding-right: 5%;
-        font-size: 40px;
-        display: grid;
-        align-items: center;
-    }
-
-    .padres {
-        margin-top: 10px;
-        width: 100%;
-        padding-left: 25%;
-        padding-right: 25%;
-        padding-bottom: 10px;
-        text-align: center;
-    }
-
-    .detalle-padres {
-        width: 50%;
-    }
-
-    .detalle-padres p {
-        margin-top: 0;
-        margin-bottom: 0;
-        align-items: center;
-        width: 50%;
-    }
-
-    .icono-biblia img {
-        max-width: 10%;
-        height: auto;
-    }
-
-    .calendario img {
-        max-width: 40%;
-        height: auto;
-    }
+    
 
     .ubicacion-icono img {
         max-width: 10%;
         height: auto;
     }
 
-    .icono-regalo img {
-        max-width: 20%;
-        height: auto;
-    }
-
     .vestimenta-icono img {
         max-width: 20%;
-        height: auto;
-    }
-
-
-    .album-contenedor{
-        padding: 0px 20%;
-    }
-
-
-    .confirmacion-icono img {
-        max-width: 10%;
         height: auto;
     }
 
@@ -514,67 +467,15 @@ body {
 ------------------------------
 @media (orientation: portrait) {
 
-    .novios {
-        font-size: 15vw;
-    }
-
-
-    .conector-novios {
-        padding-left: 3%;
-        padding-right: 3%;
-        font-size: xx-large;
-        display: grid;
-        align-items: center;
-    }
-
-
-    .padres {
-        margin-top: 10px;
-        width: 100%;
-        padding-left: 5%;
-        padding-right: 5%;
-        padding-bottom: 10px;
-        text-align: center;
-    }
-
-    .detalle-padres {
-        width: 50%;
-    }
-
-    .detalle-padres p {
-        margin-top: 0;
-        margin-bottom: 0;
-        align-items: center;
-        width: 50%;
-    }
-
-    .icono-biblia img {
-        max-width: 30%;
-        height: auto;
-    }
-
-    .calendario img {
-        max-width: 90%;
-        height: auto;
-    }
+    
 
     .ubicacion-icono img {
         max-width: 20%;
         height: auto;
     }
 
-    .icono-regalo img {
-        max-width: 40%;
-        height: auto;
-    }
-
     .vestimenta-icono img {
         max-width: 40%;
-        height: auto;
-    }
-
-    .confirmacion-icono img {
-        max-width: 20%;
         height: auto;
     }
 
