@@ -362,9 +362,9 @@ body {
 }
 
 @media (orientation: portrait) {
-.musica{
-  padding-top: 15%;
-}
+  .musica {
+    padding-top: 15%;
+  }
 
   .logo {
     z-index: 1;
