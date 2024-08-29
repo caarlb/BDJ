@@ -133,6 +133,11 @@ body {
 .participantes {
   flex-direction: row;
   padding: 10% 5%;
+
+  background-image: url('/img/flor1_1.png'), url('/img/flor2_1.png');
+  background-size: 25%, 25%;
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .participantes-titulo {
@@ -184,7 +189,14 @@ body {
   transform: scale(1.1);
 }
 
-.collage img {
+.collage {
+  background-image: url('/img/hoja2_1.png'), url('/img/hoja1_1.png');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+}
+
+.collage-imagen img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -210,6 +222,11 @@ body {
 .regalos {
   padding: 38px 10%;
   background-color: white;
+
+  background-image: url('/img/flor3_1.png'), url('/img/flor3_1.png');
+  background-size: 25%, 25%;
+  background-position: left bottom, right top;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .link-boton {
